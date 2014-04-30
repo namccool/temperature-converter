@@ -1,0 +1,22 @@
+html {
+	font-family: "Futura", sans-serif;
+	margin: 40px;
+}
+
+body {
+	box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	width: 180px;
+	position: relative;
+	border: 1px solid black;
+	padding: 10px;
+}
+
+h1 {
+	font-size: 1em;
+	text-align: center;
+}
+
+input, select {
+	width: 150px;
+}
