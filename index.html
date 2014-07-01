@@ -1,1 +1,21 @@
-My Github Page
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="tempconvert.css"/>
+    <script type="text/javascript" src="tempconvert.js"></script>
+    <title>Temperature Conversion</title>
+  </head>
+  <body>
+    <h1>Temperature Converter</h1>
+    <form name="tempForm">
+      <input type="text" name="temp" placeholder="Temperature:"><br/>
+      <select name="choice" required>
+        <option name="choice" value="none"> </option>
+        <option name="choice" value="celsius">Fahrenheit ￫ Celsius</option>
+        <option name="choice" value="fahrenheit">Celsius ￫ Fahrenheit</option>
+      </select><br/>
+      <input type="text" name="resultField" placeholder="Result:"><br/>
+      <input type="button" value="Convert" onclick="processForm()">
+    </form>
+  </body>
+</html>
